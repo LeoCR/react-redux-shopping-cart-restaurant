@@ -1,0 +1,49 @@
+/*
+
+Template: The Zayka - Multipurpose Restaurant, Food & Cafe HTML5 Template
+Author: potenzaglobalsolutions.com
+Version: 1.0  
+Design and Developed by: potenzaglobalsolutions.com
+
+
+NOTE: This is Style customizer stylesheet of template.
+
+*/
+div.style-customizer { background-color: #fff; color: #1e2327; width: 300px; height: 416px; position: fixed; top: 80px; z-index: 10000; right: -300px; box-shadow: -3px 0 50px -2px rgba(0, 0, 0, 0.14); bottom: 0; }
+div.style-customizer p { color: #1e2327; }
+.style-customizer.closed { box-shadow: none; }
+div.style-customizer .content-chooser { padding: 30px; height: 100%; position: absolute; background-color: #ffffff; border-top: none; }
+div.style-customizer.opened .content-chooser { opacity: 1; }
+div.style-customizer h3 { font-size: 32px; margin-top: 30px; line-height: 32px; text-transform: uppercase; }
+div.style-customizer a.opener { display: block; height: 45px; position: absolute; right: 300px; top: 90px; background: #fff; width: 45px; font-size: 20px; line-height: 45px; color: #777777; text-align: center; text-decoration: none; box-shadow: -1px 0 5px -2px rgba(0, 0, 0, 0.14); }
+div.style-customizer.opened a.opener { left: -45px; border-color: transparent; }
+div.style-customizer ul { list-style: none; margin: 0; padding: 5px 0 0 0; }
+div.style-customizer ul li { width: 38px; height: 38px; float: left; position: relative; display: inline-block; cursor: pointer; margin: 0 10px 8px 0; -webkit-transition: all linear 0.3s; -moz-transition: all linear 0.3s; -o-transition: all linear 0.3s; -ms-transition: all linear 0.3s; transition: all linear 0.3s; }
+div.style-customizer ul li:nth-child(5) { margin-right: 0px; }
+div.style-customizer ul li:nth-child(10) { margin-right: 0px; }
+div.style-customizer ul.layoutstyle li { width: 45%; height: 30px; margin-right: 5px; color: #666666; background-color: #f1f1f1; border: 1px solid #f3f3f3; font-size: 13px; text-align: center; padding-top: 5px; }
+div.style-customizer ul.layoutstyle li i { color: #cccccc; font-size: 11px; }
+div.style-customizer ul.layoutstyle li.selected { border: 1px solid #aaaaaa; }
+div.style-customizer ul.layoutstyle li.selected i { color: #666666; }
+div.style-customizer ul li.selected { border: 3px solid #000; }
+div.style-customizer ul.resetAll li { width: 100%; padding: 6px 0; min-width: 0; text-align: center; margin-top: 10px; line-height: inherit; }
+div.style-customizer .btn a { text-decoration: none; color: #ffffff; }
+div.style-customizer select { width: 100%; padding: 5px; border: 1px solid #b2bfca; }
+.style-customizer p { margin-bottom: 14px; }
+.style-customizer .button { display: block; text-align: center; }
+
+/*Color Skins*/
+div.style-customizer .skin-default { background: #e93e21; }
+div.style-customizer .skin-gold { background: #cd9b33; }
+div.style-customizer .skin-cyan { background: #7dcdcd; }
+div.style-customizer .skin-lime { background: #cfdf5a; }
+div.style-customizer .skin-yellow { background: #ffb400; }
+div.style-customizer .skin-green { background: #71bf44; }
+div.style-customizer .skin-red { background: #c00a27; }
+div.style-customizer .skin-light-red { background: #f4452c; }
+div.style-customizer .skin-dark-red { background: #990000; }
+div.style-customizer .skin-dark-green { background: #30731b; } 
+
+@media(max-width:992px) {
+	.style-customizer { display: none !important; }
+}

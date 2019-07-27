@@ -1,0 +1,504 @@
+/*
+Template: The Zayka - Multipurpose Restaurant, Food & Cafe HTML5 Template
+Author: potenzaglobalsolutions.com
+Version: 
+Design and Developed by: potenzaglobalsolutions.com
+
+*/
+
+@media (max-width: 1600px) {
+/* Home */
+.our-menu .object-top-bottom .object-right { width: 7%; }
+.our-menu .object-top-bottom .object-right img { width: 100%; }
+.about-2 .object-right { width: 14%; }
+.about-2 .object-right img { width: 100%; }
+.footer .object-right { width: 38%; }
+.footer .object-right img { width: 100%; }
+.footer .object-left { width: 36%; }
+.footer .object-left img { width: 100%; }
+.columns-4 .blog-entry .social ul li { padding: 0px 1px; }
+}
+
+
+@media (max-width: 1400px) {
+.bb-custom-side{ padding-right: 20px;  }
+.about-2 .about-content { padding-right: 60px; }
+}
+  
+@media (max-width: 1350px) {
+.object-bottom-top, .object-top-bottom, .object-top, .object-bottom { display: none; }
+}
+
+@media (max-width: 1272px){
+.masonry.columns-4 .masonry-item { width: 33.333%;}
+.about-2 .object-top .object-right { display: none; }
+.our-menu.dark .object-top-bottom .object-right { display: none; }
+.about-2 .about-content { padding-right: 0px; }
+}
+
+@media (max-width: 1199px) {
+/* Home 1 */
+.open.overlay_search .form_search-wrap { min-width: 80%; }
+.book-content{ padding: 40px; }
+.book-content .section-title { padding: 0 50px; }
+.pricing-grid .pricing-table{ margin-left: 0; margin-right: 0; }
+.counter .object-bottom .object-left { display: none; }
+.our-menu .menu-body { margin-bottom: 50px; }
+.menu-body.menu-white { padding:0;  }
+.menu-body.menu-left .menu-thumbnail,.menu-body.menu-right .menu-thumbnail{ width: 120px; }
+.menu-body .menu-thumbnail img { width: 120px; height:75px;}
+.object-4 .object-right { display: none; }
+.object-3 { display: none; }
+.newsletter-section .newsletter-image img { top: -75px; }
+.footer .object-bottom .object-left { display: none; }
+.footer-gallery li { width: 65px; }
+
+/* Home 2 */
+.about-2 .right-img { margin-top: 100px !important}
+.header-2 .mega-menu img { margin: 12px 0; }
+.footer-2 .opening-time li span.line { display: none; }
+
+/* Home 3 */
+.header-3 .mega-menu img { margin: 12px 0; }
+
+/* Home 3 */
+.header-4 .mega-menu img { margin: 12px 0; }
+.footer-4 .opening-time li span.line { display: none; }
+
+/* Home 4 */
+.visit-content h2 { font-size: 70px; line-height: 70px; }
+.visit-content .flaticon-restaurant-7:before { font-size: 70px; line-height: 70px; }
+
+/* Home 5 */
+.object-10 { display: none; }
+.newsletter-section .newsletter-title { margin-top: 24px; }
+.about-2 .about-content.mt-100 { margin-top: 70px !important; }
+.our-menu.middle-img .menu-body:last-child { margin-bottom: 60px; }
+.overlay-content a.portfolio-img { margin-top: 0px; }
+.footer-5 .footer-bg { display: none; }
+.our-menu .middle-image { display: none; }
+.blog-entry .social ul li { padding: 0px 2px; }
+.masonry.columns-3 .blog-entry .social ul li { padding: 0px; font-size: 12px; }
+
+/*dishes*/
+    .menu-body.menu-left .menu-details {
+        display: table-cell;
+        width: 53%;
+        float: right;
+    }
+}
+
+@media (max-width: 1024px) {
+.open.overlay_search .form_search-wrap { min-width: 95%; }
+.about-2 p { margin-bottom: 10px; }
+.footer-gallery li { width: 65px; }
+.object-9 .object-right { display: none; }
+.full-screen .grid-item { width: 33.3%; }
+.custom-content h2 { font-size: 40px ;line-height: 40px; }
+} 
+
+@media only screen and (min-width: 768px) and (max-width: 999px) {
+ .container{ width:96%; } 
+}
+@media screen and (max-width:1000px){
+    .menu-body.menu-left {
+        text-align: left;
+        width: 46%;
+        float: left;
+    }
+}
+@media( max-width:992px) {
+    .menu-body.menu-left {
+        text-align: left;
+        width: 100%;
+        float: left;
+    }
+    .menu-body.menu-left .menu-details {
+        display: table-cell;
+        width: 64%;
+        float: right;
+    }
+header { position: relative; background: #1e2327; }	
+.mega-menu  .head-info-content { display: none; }
+.mega-menu .menu-links {  left: 0; position: absolute; top:64px; width: 100%; }
+.mega-menu .menu-logo > li > a { padding: 0; }
+.mega-menu > section.menu-list-items { padding: 10px 0; }
+.mega-menu img { height: 40px; margin: 5px 0; }
+.mega-menu img.drop-bg { display: none; }
+.mega-menu .mobileTriggerButton { z-index: 1; }
+.our-menu .middle-image { display: none; }
+.header-2 .mega-menu .menu-mobile-collapse-trigger { top: 11px; }
+.header-2 .mega-menu .menu-links > li.active > a, .header-2 .mega-menu .menu-links > li > a:hover { color: #e93e21; }
+.header-2 .mega-menu .menu-links > li > a { line-height: normal; }
+.header-3 { top: 0px; }
+.header-3 .center-menu { min-height: 66px; padding: 0 15px; }
+.header-3 .mega-menu .menu-mobile-collapse-trigger:before, .header-3 .mega-menu .menu-mobile-collapse-trigger:after, .header-3 .mega-menu .menu-mobile-collapse-trigger span { background: #1e2327; }
+.header-3 .mega-menu .menu-mobile-collapse-trigger { top: 11px; }
+.header-3 .mega-menu .menu-links > li > a { line-height: normal; }
+.header-3 { position: relative; }
+.header-3 .container { width: 100%; background: #ffffff; }
+.header-4 .mega-menu .menu-mobile-collapse-trigger:before, .header-4 .mega-menu .menu-mobile-collapse-trigger:after, .header-4 .mega-menu .menu-mobile-collapse-trigger span { background: #1e2327; }
+.header-4 .mega-menu .menu-mobile-collapse-trigger { top: 11px; }
+.header-4 .mega-menu .menu-links > li > a { line-height: normal; }
+.header-5 .mega-menu .menu-links > li > a { padding: 10px 30px;  }
+.header-5 .mega-menu .menu-links {margin-top: 30px; top:0;}
+.header-5 .mega-menu .menu-links { background: none; }
+.header-5 .mega-menu .menu-links > li { border-bottom: none; }
+.header-5 .mega-menu .menu-links > li > a { color: #ffffff; }
+.header-2 .mega-menu .menu-links > li > a, .header-2 .mega-menu .menu-links > li > a.active { color: #1e2327 !important; }
+.newsletter-image img { display: none; }
+.newsletter-section { padding: 20px 0px 40px; }
+.about-2 .about-content.mt-100 { margin-top: 40px !important; }
+.blog-entry .social ul li { padding: 0px 4px; }
+.masonry.columns-3 .blog-entry .social ul li { padding: 0px 4px; font-size: 14px; }
+    #login-user svg{
+        float: left !important;
+    }
+    .mega-menu{
+        position: fixed !important;
+        width: 100% !important;
+    }
+}
+
+@media( max-width:991px) {
+.mega-menu .menu-logo li img { height: 40px; }
+.book-menu,.bb-custom-wrapper { display: none; }
+.open.overlay_search .form_search-wrap { width: 95%; }
+.page-section-ptb { padding: 60px 0; }	
+.page-section-pt { padding-top: 60px ; }	
+.page-section-pb { padding-bottom: 60px; }	
+.section-title { margin-bottom: 60px; }
+.about .object-bottom-top .object-left { display: none; }
+
+/* Home 1 */
+.pricing-grid .pricing-table .pricing-title h2 { font-size: 40px; line-height: 40px; margin-bottom: 15px; }
+.pricing-grid .pricing-table { padding: 20px 0; }
+.pricing-grid .pricing-table.active .pricing-title h2 { padding: 24px 0 ; }
+.pricing-grid .pricing-table .pricing-icon i { font-size: 100px;}
+.menu-body.menu-left .menu-thumbnail,.menu-body.menu-right .menu-thumbnail{ width: 100px; }
+.menu-body .menu-thumbnail img { width: 100px; }
+.reservation-form .form-image{ display: none; }
+.reservation-form .row-eq-height { display: block; }
+.tabs ul.tabs-link li { padding-right: 20px; }
+.footer-logo { margin-top: 40px; }
+.footer .footer-bottom { margin-top: 20px; }
+.footer .tweet { margin-bottom: 30px; }
+.head-info-content { z-index: 99; }
+
+/* Home 2 */
+.about-2 { padding-bottom: 60px; }
+.about-2 .right-img { display: none; }
+.testimonial-info p { padding: 0; }
+.footer-2 .footer-logo { margin-top: 0; }
+.footer-2 .opening-time{ margin-bottom: 53px; }
+.footer-2 .bottom-row h4 { font-size: 25px; }
+.footer-2 .footer-social ul li a { width: 40px; height: 40px; line-height: 40px; font-size: 14px; }
+
+/* Home 3 */
+.our-menu.belief .container-fuild { padding: 0 30px; }
+
+/* Home 4 */
+.object-9 { display: none; }
+.feature { margin-bottom: 25px; }
+.service-feature a.button-orange-medium { margin-top: 20px; }
+.full-screen .grid-item { width: 50%; }
+.footer-4 .footer-logo { margin-top: 0; }
+.footer-4 .opening-time { margin-bottom: 80px; }
+.footer-4 .fooer-links { text-align: left; padding-top: 5px; }
+.footer-4 .footer-bottom { margin-top: 60px; text-align: center; }
+.footer-4 .footer-bottom .fooer-links.text-right { text-align: center; }
+
+/* Home 5 */
+.pleasure .time-box .glyph-icon:before {font-size: 60px;line-height: 60px;}
+.pleasure h5 { font-size: 40px; line-height: 40px; }
+.footer-5 .footer-bg { display: none; }
+.our-menu .object-top .object-right{ display: none; }
+
+/* About */
+.inner-intro h1 { font-size: 50px; line-height: 50px; }
+.custom-content { margin-bottom: 30px;  }
+.skills-2 li { margin-bottom: 40px; }
+.our-activities .accordion { margin-top: 60px; }
+
+/* Team */
+.team-2 .social-ico:before { margin: 10px auto; }
+.team-2 .social-ico { margin-top: 12px; }
+
+/* Service */
+.feature.mt { margin-top: 0; }
+
+/* Coming soon */
+.countdown h2 { font-size: 45px; line-height: 45px; }
+.coming-soon .countdown p { font-size: 14px; }
+.coming-soon .countdown li span { font-size: 50px; line-height: 50px; }
+.coming-soon .coming-soon-search p { font-size: 15px;margin-bottom: 15px; }
+.coming-soon-search a.button-orange-medium { padding: 14px 20px; }
+
+/* Menu */
+.menu-list-bg { height: 180px; }
+
+/* Gallery */
+.columns-3 .grid-item { width: 50%; }
+.columns-4 .grid-item { width: 50%; }
+
+/* Blog pages */
+.blog-entry.post-1 .blog-entry-image { width: 100%; }
+.blog-entry.left .blog-entry-image, .blog-entry.left .entry-content { display: block; width: 100%; }
+.blog-entry.post-1 .entry-content { margin: 0; }
+.sidebar-widget h3 { font-size: 30px; line-height: 30px; }
+.masonry.columns-2 .masonry-item { width: 100%; padding: 0;	 }
+.masonry.columns-3 .masonry-item { width: 50%; }
+.masonry.columns-4 .masonry-item { width: 50%;}
+
+/* Contact */
+.contact .contact-box h5 { font-size: 30px; line-height: 30px; margin-bottom: 10px; }
+.object-bottom-top, .object-top-bottom, .object-top, .object-bottom { display: none; }
+.about-content.mt-100 { margin-top: 40px !important; }
+.head-info-content { display: none; }
+.reservation-form.contact-form.dark.page-section-ptb.parallax.bg-overlay-black-80 { padding-bottom: 60px; }
+.counter-content .button { margin-bottom: 30px; }
+.our-menu.belief.parallax .row-eq-height { display: block; }
+.header-5 { padding: 15px 5px; }
+.header-5 .logo img { height: 40px; }
+.header-5 #menu-toggle { top: 6px; }
+.reservation-form.contact-form.dark.page-section-ptb.parallax .submit-button span  { padding-bottom: 30px; }
+.testimonial-block.left .testimonial-info { padding-bottom: 30px; }
+.our-menu.parallax.page-section-pt.pb-30 { padding-bottom: 10px !important; }
+}
+
+@media( max-width:768px) {
+/* Home 1 */
+.book-menu .content h2 { font-size: 48px; }
+.object-2 .object-right { text-align: right; }
+.object-2 .object-right img { width: 60%; display: inline-block; }
+}
+
+@media( max-width:767px) {
+.button-orange-medium { padding: 12px 20px;  }
+.button-black-medium { padding: 12px 20px; }
+
+/* Home 1 */
+.header{ padding: 0; position: inherit; background: #1e2327; }	
+.slider {  overflow:inherit; }
+.header .mega-menu > section.menu-list-items { float: none; padding: 6px 0; }
+.header .mega-menu .menu-mobile-collapse-trigger { top: 3px; }
+.header .mega-menu .menu-links { top: 57px; }
+.topbar { display: none; }
+.page-section-ptb { padding: 50px 0; }	
+.page-section-pt { padding-top: 50px ; }	
+.page-section-pb { padding-bottom: 50px; }	
+.section-title { margin-bottom: 40px; padding: 0; }
+.section-title h2 { font-size: 40px;line-height: 40px; }
+.section-title .glyph-icon:before { font-size: 30px; }
+.object-top-bottom { display: none; }
+.pricing-grid .pricing-table { margin-bottom: 20px; }
+.pricing-grid .pricing-table.active{ margin-top: 0; }
+.tabs ul.tabs-link {     margin-bottom: 50px; }
+.tabs ul.tabs-link li i:before { padding-right: 5px; }
+.tabs ul.tabs-link li { padding-right: 20px; font-size: 30px; }
+.our-menu .menu-body,.our-menu .menu-body:last-child { margin-bottom: 30px; }
+.counter.light .page-section-ptb { padding: 40px 0; padding-bottom: 0; }
+.counter.left-icon.last{ margin-bottom: 0; }
+.testimonials .object-bottom-top .object-right { display: none; }
+.newsletter-section .newsletter-image{ display: none; }
+.footer-wel { margin-bottom: 30px; }
+.footer .newsletter,.footer .tweet,.footer .opening-time{ margin-bottom: 30px; }
+.footer .footer-bottom { margin-top: 0; }
+.footer h4 { margin-bottom: 20px !important; }
+.footer .object-bottom .object-right { display: none; }
+.reservation-form.contact-form.dark.page-section-ptb.parallax .submit-button span { padding-bottom: 0; }
+
+/* Home 2 */
+.about-2 { padding-bottom: 40px; }
+.about-2 h2 { font-size: 40px; line-height: 40px; }
+.footer-2 .logo-sec { margin-bottom: 20px; }
+.footer-2 .newsletter,.footer-2 .tags,.footer-2 .opening-time{ margin-bottom: 20px; }
+.footer-2 .footer-social {text-align: left; margin-bottom: 20px;}
+.footer-2 .bottom-row h4 { margin-bottom: 0 !important; }
+.footer-2 .copyright { margin-bottom: 5px; }
+.footer-2 .footer-bottom .text-right { text-align: left; }
+.menu-body.menu-right .menu-thumbnail { float: left; margin-left: 0; margin-right: 20px; }
+.menu-body.menu-right { text-align: left; }
+.menu-body.menu-right .menu-title h4 { float: none; display: inline-block; }
+.menu-body.menu-right .menu-details .price { float: right; }
+.menu-body.menu-right .menu-description { text-align: left; }
+
+/* Home 3 */
+.header-3 { top: 0 }
+.footer-3 .footer-bottom { margin-top: 20px; }
+.footer-3 .location { margin-bottom: 40px; }
+.footer-3 .footer-gallery { margin-top: 40px; }
+.footer-bottom .text-right { text-align: left; }
+
+/* Home 4 */
+.counter-block { margin-bottom: 40px; }
+.footer-4 .newsletter,.footer-4 .tags,.footer-4 .opening-time,.footer-4 .contact{ margin-top: 30px; }
+.full-screen .grid-item { width: 50%; }
+.visit-content h2 { font-size: 50px; line-height: 50px; }
+.visit-content .flaticon-restaurant-7:before { font-size: 50px; line-height: 50px;  }
+.visit-content a.button-orange-medium { margin-top: 4px; }
+
+/* Home 5 */
+.header-5 { position: inherit; }
+.time-box { margin-bottom: 25px; }
+.visit-content h3 { margin-bottom: 5px; font-size: 34px; line-height: 34px; }
+.footer-5 .opening-time { margin-top: 25px; }
+
+/* gallery */
+.isotope-filters  button { padding: 10px 15px; }
+
+/* Team */
+.team-2 .team-description { padding: 6px; }
+.error-page h3 { font-size: 60px; line-height: 60px; }
+.error-page strong { font-size: 18px; margin-bottom: 20px; }
+
+/* Coming soon */
+.coming-soon-search a.button-orange-medium { padding: 16px 20px; }
+.coming-soon-search a.button { margin-top: 20px; }
+
+/*Blog Pages*/
+.masonry .masonry-item { margin-bottom: 20px; }
+.masonry.columns-3 .masonry-item {width: 100%; padding: 0;}
+.masonry.columns-4 .masonry-item { width: 100%; padding: 0;}
+
+/* Contact */
+.contact .contact-box { padding: 10px; }
+.contact-map { height: 250px; }
+.footer { background-size: cover; }
+.tabs ul.tabs-link li { padding: 0 15px; }
+.footer-2 .footer-bottom { margin-top: 40px; }
+.footer-4 .footer-social { margin-top: 20px; }
+.coming-soon-search  { text-align: center; }
+.about-4 .feature-box { margin-top: 30px; }
+.about-4 .about-content.text-center.mb-50  { margin-bottom: 20px !important; }
+.reservation-form.contact-form.dark.page-section-ptb .row { margin: 0px; padding: 0; }
+.reservation-form.contact-form.dark.page-section-ptb .row .row { padding: 30px 10px; }
+
+/* Revolution slider font setting */
+.mo-details-text { font-size: 13px !important; line-height: 19px !important; }
+.mo-sub-title-text { font-size: 16px !important; }
+.mo-text-uppercase { font-size: 12px !important; line-height: 16px !important; }
+.mo-btn { font-size: 9px !important; padding: 2px 12px !important; line-height: 14px !important; position: relative !important; top: 12px !important; }
+.tparrows,
+.tp-bullet { display: none !important; }
+
+}
+
+@media( max-width:600px) {
+/* Gallery */
+.columns-3 .grid-item { width: 100%; }
+.columns-4 .grid-item { width: 100%; }
+.columns-2 .grid-item { width: 100%; }
+.menu-body.menu-left .menu-details{
+    width:100%;
+}
+
+}
+@media(max-width:600px){
+    .menu-body.menu-left .menu-thumbnail, .menu-body.menu-right .menu-thumbnail,
+    .menu-body .menu-thumbnail img{
+        width: 100% !important; 
+    }
+    .menu-body .menu-thumbnail img{
+        height: auto !important;
+    }
+    .menu-body.menu-left .menu-thumbnail{
+        margin:0 auto !important;
+    }
+}
+@media( max-width:479px) { 
+/* Home 1 */
+.page-section-ptb { padding: 40px 0; }
+h2,h3 { font-size: 30px;line-height: 30px; }
+.pricing-grid .pricing-table .pricing-title h2 { font-size: 30px; line-height: 30px; } 
+.tabs ul.tabs-link li{  font-size: 0; }
+.tabs ul.tabs-link.without-icon li{  font-size: 22px; }
+.tabs ul.tabs-link li i:before { font-size:48px; }
+.menu-body.menu-left .menu-thumbnail { float: none; width: 100%; margin-bottom: 15px; }
+.menu-body.menu-right .menu-thumbnail { float: none; width: 100%; margin-bottom: 15px; }
+.menu-body .menu-title h4 { font-size: 25px; }
+.menu-body .menu-details .price { font-size: 25px; }
+.menu-body.menu-left .menu-title{margin-bottom: 12px; padding-bottom: 0; }
+.testimonial-block.left .testimonial-avatar { float: none; margin-bottom: 10px; }
+.testimonial-block.right .testimonial-avatar { float: none; margin-bottom: 10px; }
+.testimonial-info { padding: 10px; }
+.testimonial-block.left .testimonial-info { padding-left: 10px; display: block;  text-align: center; }
+.testimonial-block.right .testimonial-info { padding-left: 10px; display: block;  text-align: center; }
+.footer-social .list-inline>li { padding-left: 2px; }
+.footer .footer-social ul li a { width: 40px; height: 40px; line-height: 40px; }
+.footer .footer-bottom { padding: 30px 0px; }
+#back-to-top .top {  width: 40px; height: 40px; line-height: 40px; }
+
+/* Home 2 */
+.about-2 h2 { font-size: 30px; line-height: 30px; }
+.footer-2 .footer-bottom {  line-height: 20px; }
+.belief { padding-bottom: 0px;}
+
+/* Home 3 */
+.footer-3 .footer-bottom { margin-top: 30px; }
+
+/* Home 4 */
+.full-screen .grid-item { width: 100%; }
+.isotope-filters { margin: 0 auto 20px; text-align: center; }
+.isotope-filters  button { margin: 5px; text-align: center; }
+.visit-content h2 { line-height: 30px; }
+.visit-content .flaticon-restaurant-7:before { font-size: 30px; line-height: 30px;  }
+
+/* Home 5 */
+.pleasure .time-box .glyph-icon:before {font-size:50px;line-height: 50px;}
+.pleasure h5 { font-size: 30px; line-height: 30px; }
+.menu-body.menu-white .menu-thumbnail { margin-bottom: 15px; }
+.menu-body.menu-white .menu-title { margin-bottom: 15px; }
+
+/* About */
+.inner-intro { height: 310px; }
+.inner-intro h1 { font-size: 40px; line-height: 40px; }
+ul.page-breadcrumb { padding-top: 20px; }
+ul.page-breadcrumb li i { padding: 0 2px; }
+.custom-content h2 { font-size: 30px; line-height: 30px; }
+.our-activities h3 { font-size: 30px; line-height: 30px; }
+.skills-2 li { font-size: 14px; }
+.accordion .accordion-title a:after { left: 12px; }
+.accordion .accordion-title a { padding: 11px 40px; }
+.accordion .accordion-title { font-size: 14px; }
+.error-page h3 { font-size: 40px; line-height: 40px; }
+.error-page strong { font-size: 15px; margin-bottom: 10px; }
+
+/* Coming soon */
+.countdown h2 { font-size: 24px; line-height: 24px; }
+.coming-soon .countdown p { line-height: 20px; margin-bottom: 86px; }
+.coming-soon .countdown { margin: 0 0 60px; }
+.coming-soon .countdown li span { font-size: 30px; line-height: 30px; }
+.coming-soon .coming-soon-search p { margin-bottom: 10px; }
+.coming-soon-search a.button-orange-medium { padding: 16px 11px; }
+.contact-form .form-field { margin-bottom: 8px; }
+
+/* Menu */
+.menu-list-bg { height: 100px; }
+.menu-list-bg .content-text h2 { font-size: 30px; line-height: 30px; margin-bottom: 0; }
+.our-menu #tabs .tabs li i::before { font-size: 40px; }
+
+/* Blog pages */
+.entry-content h3 { font-size: 25px; }
+.entry-content .entry-date { width: 46px; height: 57px; padding: 5px; }
+.entry-meta a { margin-right:2px ; }
+
+/* Contact */
+.contact-map { height: 200px; }
+
+/* Masonry */
+.social.list-style-none.pull-right { float: none !important; margin-top: 10px; }
+
+/* Revolution slider font setting */
+.mo-details-text { font-size: 11px !important; line-height: 14px !important; }
+.mo-sub-title-text { font-size: 14px !important; }
+.mo-text-uppercase { font-size: 9px !important; line-height: 9px !important; }
+
+}  
+
+@media( max-width:320px) { 
+/* Home 4 */	
+.isotope-filters  button { font-size: 13px; padding: 3px; }
+.error-page .link-button  a { margin-bottom: 20px; }
+.coming-soon-search a.button-orange-medium { padding: 16px 4px; display: block; }
+}

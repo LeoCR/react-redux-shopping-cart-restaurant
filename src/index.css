@@ -1,0 +1,36 @@
+.show{
+  display: block !important;
+}
+.modal{
+  background: rgba(0, 0, 0, 0.8) none repeat scroll 0% 0%;
+  overflow: auto;
+}
+body.modal-opened #header{
+  z-index:999 !important;
+}
+#btn-facebook,#btn-google{
+  margin: 2% 10%;
+  width: 80%;
+}
+#btn-facebook p,#btn-google p{
+  font-size: 17px;
+  line-height:2;
+}
+.modal-dialog .form-control{
+  border: 1px solid !important;
+}
+.signup .modal-content{
+  min-height: 750px;
+}
+.error-msg{
+  color: darkred;
+} 
+@media (max-width: 580px) {
+  #btn-facebook p,#btn-google p{
+    font-size: 14px;
+  }
+  #btn-facebook,#btn-google  {
+    margin: 2% 12%;
+    width: 76%;
+  }
+}
