@@ -89,7 +89,7 @@ class Modal extends React.Component{
             ModalContent=<CartProducts calculateOrders={this.props.calculateOrders} checkout={this.checkout}/>;
         }
         return(
-            <div className="modal" tabIndex="-1" role="dialog">
+            <div className="modal" id="modal-shopping-cart">
                 <div className="modal-dialog" role="document">
                     <div className="modal-content">
                         <div className="modal-header">

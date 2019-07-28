@@ -995,7 +995,7 @@ ul.page-breadcrumb li a:hover { color: #e93e21; }
 #formmessage { display: none; }
 .alert-danger { color: #a94442; background-color: #f2dede; border-color: #ebccd1; }
 .contact-form .form-field { position: relative; margin-bottom: 30px; }
-.contact-form .form-field i { position: absolute; left: 0; color: #e93e21; display: inline-block; width: 45px; height: 45px; line-height: 45px; text-align: center; z-index: 99; }
+.contact-form .form-field i { position: absolute; left: 0; color: #e93e21; display: inline-block; width: 45px; height: 45px; line-height: 45px; text-align: center; z-index: 2; }
 .contact-form .form-field input, .contact-form .form-field textarea { width: 100%; padding-left: 40px; color: #fff; border-color: rgba(0, 0, 0, 0.1); color: #afafaf; }
 .contact-form.white-form .form-field input, .contact-form.white-form .form-field textarea { width: 100%; padding-left: 45px; color: #fff; border-color: rgba(255, 255, 255, 0.3); }
 .reservation .contact-form.white-form .select-styled { background: none; border-color: rgba(255, 255, 255, 0.3); color: #afafaf; }
@@ -1432,4 +1432,25 @@ input#quantity{
     color: #fffefe;
     background-color: #f46e2b;
     border-color: #f46e2b;
+}
+#modal-shopping-cart,#contact-modal{
+    display: none !important;
+}
+.modal-opened .modal,.modal-opened #modal-shopping-cart,#contact-modal.opened{
+    display:block !important;
+}
+.col-lg-12{
+    z-index:9;
+}
+#menu,#services,#about-us,section,footer{
+    width: 100%;
+    float: left;
+    position: relative;
+    z-index:1;
+}
+#menu{
+    z-index: 99 !important;
+}
+#contact-modal-content{
+    margin: 10px 35px;
 }
