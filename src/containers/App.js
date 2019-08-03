@@ -135,13 +135,13 @@ class App extends React.Component {
                               <li className="tab-link">
                                 <a href="#tab-entrees" data-toggle="tab" aria-expanded="false">
                                   <i className="glyph-icon flaticon-food-9"></i> 
-                                  Entrees
+                                  Appetizers
                                 </a>
                               </li>
                               <li className="tab-link">
                                 <a href="#tab-strong-dishes" data-toggle="tab" aria-expanded="false">
                                   <i className="glyph-icon flaticon-food-36"></i> 
-                                  Strongs Dishes
+                                  Main Courses
                                 </a>
                               </li>
                               <li className="tab-link">
