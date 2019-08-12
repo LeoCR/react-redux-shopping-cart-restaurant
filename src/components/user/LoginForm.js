@@ -31,11 +31,29 @@ class LoginForm extends React.Component{
             var _this=this;
             api.post('/api/login', user, axiosConfig)
             .then(res => { 
+                console.log('res');
+                console.log(res);
                 if(res.data.user){
                     this.props.setUser(res.data.user);
+                    $('.error-password').css('display','none');
+                    $('.error-email').css('display','none');
                     setTimeout(() => {
                         _this.props.setShowUserDetails();
                     }, 500);
+                }
+                else{
+                    if(res.data.info.message==='Incorrect password.'){
+                        _this.setState({
+                            passwordError:'Incorrect password.'
+                        })
+                        $('.error-password').css('display','block');
+                    }
+                    if(res.data.info.message==='Email does not exist'){
+                        _this.setState({
+                            emailError:'Email does not exist.'
+                        })
+                        $('.error-email').css('display','block');
+                    }
                 }
             })
             .catch(error => {
