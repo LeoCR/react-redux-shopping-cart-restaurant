@@ -16,12 +16,12 @@ class ViewDrink extends React.Component {
         }
         const {name,picture,price,description,id}=this.props.product;
         return(
-            <div className="container" key={id}>
+            <div className="container" key={id} style={{background:'#000'}}>
                 <Link to="/" className="btn btn-success">Back</Link>
-                <h1>{name}</h1>
+                <h1 style={{color:'#fff'}}>{name}</h1>
                 <img src={picture} alt={name} style={{maxWidth:'190px'}}/>
-                <p>Description: {description}</p>
-                <p>Price: {price}$ </p>
+                <p style={{color:'#fff'}}>Description: {description}</p>
+                <p style={{color:'#fff'}}>Price: {price}$ </p>
             </div>
         )
     }

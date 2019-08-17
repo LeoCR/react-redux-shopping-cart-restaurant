@@ -11,24 +11,23 @@ class ViewDish extends React.Component {
     getIngredients(){
         if(!this.props.ingredients){
             return(
-                <div>
-                    Loading Ingredients
-                </div>
+                <React.Fragment>
+                </React.Fragment>
             )
         }
         var titleHtml;
         if(this.props.ingredients.length>0){
-            titleHtml=<h3>Ingredients</h3>
+            titleHtml=<h3 style={{color:'#fff'}}>Ingredients</h3>
         }
         return( 
-            <ul>
+            <ul id="ingredients-list">
                 {titleHtml}
             {
                 this.props.ingredients.map(ingredient =>
                     {
                         return(
                             <li>
-                                {ingredient.name} 
+                                <p>{ingredient.name}</p>
                                 <img src={ingredient.img} alt={ingredient.name} style={{width:'50px'}}/>
                             </li>
                         )
@@ -49,13 +48,12 @@ class ViewDish extends React.Component {
         console.log(this.props);
         const {name,picture,price,description,id}=this.props.product;
         return(
-            <div className="container" key={id}>
+            <div className="container" key={id} style={{background:'#000'}}>
                 <Link to="/" className="btn btn-success">Back</Link>
-                <h1>{name}</h1>
+                <h1 style={{color:'#fff'}}>{name}</h1>
                 <img src={picture} alt={name} style={{maxWidth:'190px'}}/>
-                <p>Description: {description}</p>
-                <p>Price: {price}$ </p>
-                
+                <p style={{color:'#fff'}}>Description: {description}</p>
+                <p style={{color:'#fff'}}>Price: ${price} </p>
                 {this.getIngredients()}  
             </div>
         )

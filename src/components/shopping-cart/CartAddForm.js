@@ -53,24 +53,33 @@ class CartAddForm extends React.Component{
         return(
             <React.Fragment>
                 <div className="modal-body">
-                    <label htmlFor="productName">Product Name:</label>
-                    <input type="hidden" name="idProduct" 
-                        id="idProduct" disabled/>
-                    <input type="text" name="productName" 
-                        id="productName" disabled/>
-                    <label htmlFor="quantity">Quantity:</label>
-                    <input type="number" name="quantity" 
-                        id="quantity-cart" />
-                    <button type="button" className="btn btn-danger" 
-                        onClick={this.decrement}>-</button>
-                    <button type="button" className="btn btn-success" 
-                        onClick={this.increment}>+</button>
-                    <label htmlFor="pricePerUnit">Price per Unit:</label>
-                    <input type="number" name="pricePerUnit" 
-                        id="pricePerUnit" disabled/>
-                    <label htmlFor="totalPrice">Total Price:</label>
-                    <input type="number" name="totalPrice" 
-                        id="totalPrice" disabled/>
+                    <div className="form-group">
+                        <label htmlFor="productName">Product Name:</label>
+                        <input type="hidden" name="idProduct" 
+                            id="idProduct" disabled/>
+                        <input type="text" name="productName" 
+                            id="productName" disabled className="form-control"/>
+                    </div>
+                    <div className="form-group">
+                        <label htmlFor="quantity">Quantity:</label>
+                        <button type="button" className="btn btn-danger" 
+                        onClick={this.decrement} style={{float:'left'}}>-</button>
+                        <input type="number" name="quantity" 
+                            id="quantity-cart"   style={{width:'200px',float:'left'}} className="form-control"/>
+                             <button type="button" className="btn btn-success" 
+                        onClick={this.increment} style={{float:'left'}}>+</button>
+                    </div>
+                    
+                    <div className="form-group">
+                        <label htmlFor="pricePerUnit">Price per Unit:</label>
+                        <input type="number" name="pricePerUnit" 
+                            id="pricePerUnit" disabled/>
+                    </div>
+                    <div className="form-group">
+                        <label htmlFor="totalPrice">Total Price:</label>
+                        <input type="number" name="totalPrice" 
+                            id="totalPrice" disabled  className="form-control"/>
+                    </div>
                 </div>
                 <div className="modal-footer">
                     <button type="button" className="btn btn-primary" 

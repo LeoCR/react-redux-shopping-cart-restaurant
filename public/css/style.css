@@ -825,7 +825,7 @@ float: left;}
     float: left; margin-right: 20px; width: 100px; margin-bottom: 0; margin-left: 47px;}
 .menu-body.menu-left .menu-details { display: table-cell;width:60%;float: right; }
 .menu-body.menu-left .menu-title { display: block; border-bottom: 1px dashed #909090; padding-bottom: 10px; }
-.menu-body.menu-left .menu-title h4 { display: inline-block; }
+.menu-body.menu-left .menu-title h4 { display: inline-block; color: #df7522 !important;}
 .menu-body.menu-left .menu-details .price { float: right; color: #e93e21; }
 
 /*menu right*/
@@ -1413,6 +1413,7 @@ input#quantity{
 }
 .modal-body label{
     width: 100%;
+    float: left;
 }
 /*css3 hover effects*/
 .header-3 .mega-menu .menu-links > li > a.nav-link {
@@ -1453,4 +1454,20 @@ input#quantity{
 }
 #contact-modal-content{
     margin: 10px 35px;
+}
+#checkout-section,#user-section{
+    z-index: 99;
+}
+#ingredients-list li {
+    float: left;
+    width: 100%;
+    margin: 10px 0;
+}
+#ingredients-list img {
+    max-height: 30px;
+}
+#ingredients-list p {
+    width: 150px;
+    float: left;
+    color: #fff ;
 }
