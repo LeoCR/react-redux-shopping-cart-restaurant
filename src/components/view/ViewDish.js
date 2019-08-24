@@ -27,6 +27,7 @@ class ViewDish extends React.Component {
                     {
                         return(
                             <li>
+                                <span className="arrow-orange"></span>
                                 <p>{ingredient.name}</p>
                                 <img src={ingredient.img} alt={ingredient.name} style={{width:'50px'}}/>
                             </li>

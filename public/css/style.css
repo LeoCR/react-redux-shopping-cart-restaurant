@@ -1462,6 +1462,7 @@ input#quantity{
     float: left;
     width: 100%;
     margin: 10px 0;
+    list-style: none;
 }
 #ingredients-list img {
     max-height: 30px;
@@ -1470,4 +1471,12 @@ input#quantity{
     width: 150px;
     float: left;
     color: #fff ;
+}
+.arrow-orange{
+    background: url("/images/arrow-orange.png") no-repeat center;
+    width: 30px;
+    height: 30px;
+    float: left;
+    position: relative;
+    background-size: cover;
 }
