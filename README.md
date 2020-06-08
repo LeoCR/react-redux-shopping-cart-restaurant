@@ -41,8 +41,8 @@ This project require another project as BackEnd [Server Nodejs](https://github.c
 This project was splitted in 2 more differents projects:
 
 <ul>
-    <li>[Checkout Restaurant](https://github.com/LeoCR/react-redux-checkout-restaurant)</li>
-    <li>[Users Restaurant](https://github.com/LeoCR/react-redux-users-restaurant)</li>
+    <li><a href="https://github.com/LeoCR/react-redux-checkout-restaurant" target="_new">Checkout Restaurant</a></li>
+    <li><a href="https://github.com/LeoCR/react-redux-users-restaurant" target="_new">Users Restaurant</a></li>
 </ul>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
