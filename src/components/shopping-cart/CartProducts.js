@@ -3,45 +3,54 @@ import $ from 'jquery';
 import {connect} from 'react-redux';
 import {updateItemUnits,deleteFromCart} from '../../actions/cartActions';
 class CartProducts extends React.Component{
-  deleteOrder=(order,e)=>{
-      e.preventDefault();
-      this.props.deleteFromCart(order.id);
-      this.props.calculateOrders();
-  }
-  checkout=(e)=>{
-    e.preventDefault();
-    this.props.checkout();
-  }
-  updateQuantity=()=>{ 
-  }
-  decrementOrder=(order)=>{
-    if(order.quantity>1){
-        order.quantity=order.quantity-1;
-        $('#quantity-added').val(order.quantity);
+    deleteOrder=(order,e)=>{
+        e.preventDefault();
+        this.props.deleteFromCart(order.id);
+        this.props.calculateOrders();
     }
-    this.props.updateItemUnits(order);
-    this.props.calculateOrders();
-  }
-  incrementOrder=(order)=>{
-    order.quantity=order.quantity+1;
-    $('#quantity-added').val(order.quantity);
-    this.props.updateItemUnits(order);
-    this.props.calculateOrders();
-  }
-  calculateTotal=()=>{
-    var orders=this.props.orders.orders,
-    totalPrice=0;
-    orders.forEach(function(element) {
-        totalPrice+=element.price*element.quantity;
-    });
-    return(
-        <React.Fragment>
-            <hr></hr>
-            <h3>Total Price:</h3>
-            <h5>{totalPrice}$</h5>
-        </React.Fragment>
-    )
-  }
+    checkout=(e)=>{
+      e.preventDefault();
+      this.props.checkout();
+    }
+    updateQuantity=()=>{ 
+    }
+    decrementOrder=(order)=>{
+      if(order.quantity>1){
+          order.quantity=order.quantity-1;
+          $('#quantity-added').val(order.quantity);
+      }
+      this.props.updateItemUnits(order);
+      this.props.calculateOrders();
+    }
+    incrementOrder=(order)=>{
+      order.quantity=order.quantity+1;
+      $('#quantity-added').val(order.quantity);
+      this.props.updateItemUnits(order);
+      this.props.calculateOrders();
+    }
+    calculateTotal=()=>{
+      var orders=this.props.orders.orders,
+      totalPrice=0;
+      orders.forEach(function(element) {
+          totalPrice+=element.price*element.quantity;
+      });
+      return(
+          <React.Fragment>
+              <hr></hr>
+              <h3>Total Price:</h3>
+              <h5>{totalPrice}$</h5>
+          </React.Fragment>
+      )
+    }
+    goToMenu=(e)=>{
+      if(e){
+        e.preventDefault();
+      }
+      window.location.replace("/#menu");
+      $('.modal').css({'display':'none'});
+      $('body').toggleClass('modal-opened');
+      $('body').removeClass('signup');
+    }
     render(){
       var orders=this.props.orders.orders;
       this.props.calculateOrders();
@@ -49,6 +58,7 @@ class CartProducts extends React.Component{
             return(
                 <div className="modal-body">
                     Your cart is Empty
+                    <button className="btn btn-success" onClick={(e)=>this.goToMenu(e)}>Go to Menu</button>
                 </div>
             )
       } 

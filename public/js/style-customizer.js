@@ -67,13 +67,13 @@ jQuery(document).ready(function($) {
 			 	link.attr('href','css/skins/' + tp_stylesheet + '.css');
 			 	$('.style-customizer .styleChange li[data-style="'+tp_stylesheet+'"]').addClass("selected");
 			 	if ($(".swicher-title-page-dark").length>0) {
-			 		document.getElementById("logo_img").src="images/color-customizer/logo_dark_swicher-title_" + tp_stylesheet + ".png";
+			 		document.getElementById("logo_img").src="images/logo-restaurant.png";
 			 	} else {
 			 		if ($("#logo_img").length>0) {
 			 			document.getElementById("logo_img").src="images/color-customizer/logo_" + tp_stylesheet + ".png";
 			 		};
 			 		if ($("#logo_dark_img").length>0) {
-			 			document.getElementById("logo_dark_img").src="images/color-customizer-dark/logo_" + tp_stylesheet + ".png";
+			 			document.getElementById("logo_dark_img").src="images/logo-restaurant.png";
 			 		};
 			 		if ($("#logo-footer").length>0) {
 			 			document.getElementById("logo-footer").src="images/color-customizer/logo_" + tp_stylesheet + ".png";
