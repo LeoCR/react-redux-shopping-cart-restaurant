@@ -6,7 +6,7 @@ export const ViewDrink=props=>{
     useEffect(() => {
         let id=props.match.params.id;
         props.fetchProduct(id); 
-    }, []);
+    }, [props]);
     if(!props.product){
         return (
             <div>
@@ -31,4 +31,4 @@ const mapStateToProps=(state)=>{
         product:state.products.product
     }
 }
-export default connect(mapStateToProps,{fetchProduct})(React.memo(ViewDrink));
+export default connect(mapStateToProps,{fetchProduct})(ViewDrink);

@@ -38,7 +38,7 @@ export const StrongsDishes=props=>{
                                 <p>{strongDish.description.substr(0,80)+'...'}</p>
                             </div>
                             <button type="button" className="btn btn-danger" onClick={()=>{addStrongDish(strongDish)}}><i className="fa fa-cart-plus fa-3"></i>Add </button>
-                            <a type="button" className="btn btn-success" onClick={(e)=>goToMenu(e,strongDish.id)}><i className="fa fa-eye fa-3" aria-hidden="true"></i>Read More</a>
+                            <button type="button" className="btn btn-success" onClick={(e)=>goToMenu(e,strongDish.id)}><i className="fa fa-eye fa-3" aria-hidden="true"></i>Read More</button>
                         </div>
                     </div>
         )}

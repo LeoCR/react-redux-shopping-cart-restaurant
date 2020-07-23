@@ -22,8 +22,7 @@ const CartContainer=(props)=>{
                 setShowUserDetails={props.setShowUserDetails}
                 addToCart={props.addToCart} 
                 calculateOrders={props.calculateOrders}
-                showModal={props.showModal}
-                setShowUserDetails={props.setShowUserDetails}
+                showModal={props.showModal} 
             />
         </React.Fragment>
     )

@@ -1,8 +1,8 @@
 import React from 'react';
-import EntreesContainer from "./EntreesContainer";
-import DessertsContainer from "./DessertsContainer";
-import DrinksContainer from "./DrinksContainer";
-import StrongsDishesContainer from "./StrongsDishesContainer";
+import Entrees from "../components/Entrees";
+import Desserts from "../components/Desserts";
+import Drinks from "../components/Drinks";
+import StrongsDishes from "../components/StrongsDishes";
 import {connect} from 'react-redux';
 import $ from 'jquery';
 import CartContainer from "./CartContainer";
@@ -12,7 +12,7 @@ import {Router, Route } from "react-router-dom";
 import ViewDrink from "../components/view/ViewDrink";
 import ViewDish from "../components/view/ViewDish";
 import history from '../history';
-class App extends React.Component {
+class App extends React.PureComponent {
   state={
     showModal:'showAddForm',
     product:null,
@@ -159,25 +159,25 @@ class App extends React.Component {
                             </ul>
                             <div className="tab-content">
                               <div role="tabpanel" className="tab-pane fade active in" id="tab-entrees">
-                                <EntreesContainer 
+                                <Entrees 
                                 addProductToCart={this.addProductToCart} 
                                 setAddForm={this.setAddForm}
                                 Entrees={this.props.products.products.entrees}/>
                               </div>
                               <div role="tabpanel" className="tab-pane fade" id="tab-strong-dishes">
-                                <StrongsDishesContainer 
+                                <StrongsDishes
                                 addProductToCart={this.addProductToCart} 
                                 setAddForm={this.setAddForm}
                                 StrongsDishes={this.props.products.products.strongsDishes}/>
                               </div>
                               <div role="tabpanel" className="tab-pane fade" id="tab-desserts">
-                                <DessertsContainer 
+                                <Desserts
                                 addProductToCart={this.addProductToCart} 
                                 setAddForm={this.setAddForm}
                                 Desserts={this.props.products.products.desserts}/>
                               </div>
                               <div role="tabpanel" className="tab-pane fade" id="tab-drinks">
-                                <DrinksContainer 
+                                <Drinks 
                                 addProductToCart={this.addProductToCart} 
                                 setAddForm={this.setAddForm}
                                 Drinks={this.props.products.products.drinks}/>

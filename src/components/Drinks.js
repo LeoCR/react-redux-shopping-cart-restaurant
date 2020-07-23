@@ -42,10 +42,10 @@ export const Drinks=props=>{
                             <i className="fa fa-cart-plus fa-3"></i>
                             Add
                             </button>
-                            <a type="button" className="btn btn-success" onClick={(e)=>goToMenu(e,drink.id)}>
+                            <button type="button" className="btn btn-success" onClick={(e)=>goToMenu(e,drink.id)}>
                             <i className="fa fa-eye fa-3" aria-hidden="true"></i>
                             Read More
-                            </a>
+                            </button>
                         </div>
                     </div>
         )}

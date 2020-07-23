@@ -7,7 +7,7 @@ export const ViewDish =props=> {
         var id=props.match.params.id;
         props.fetchProduct(id);
         props.fetchIngredients(id);  
-    }, []); 
+    }, [props]); 
     const getIngredients=()=>{
         if(!props.ingredients){
             return(
@@ -66,4 +66,4 @@ const mapStateToProps=(state)=>{
         ingredients:state.products.ingredients
     }
 }
-export default connect(mapStateToProps,{fetchProduct,fetchIngredients})(React.memo(ViewDish));
+export default connect(mapStateToProps,{fetchProduct,fetchIngredients})(ViewDish);

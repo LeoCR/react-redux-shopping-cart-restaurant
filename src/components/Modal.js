@@ -10,9 +10,6 @@ import CartProducts from './shopping-cart/CartProducts';
 import CartAddForm from './shopping-cart/CartAddForm';
 import {setUser} from "../actions/userActions";
 export const Modal =props=>{
-    useEffect(() => {
-        setUserData();
-    }, []); 
     const setUserData=()=>{
         try {
             api.get('/api/user/info').then(function (res) {
@@ -24,6 +21,9 @@ export const Modal =props=>{
             console.log('An error occurs in Modal.setUserData() '+error);
         }
     }
+    useEffect(() => {
+        setUserData();
+    }); 
     const closeModal=(e)=>{
         if(e){
             e.preventDefault();
@@ -56,7 +56,7 @@ export const Modal =props=>{
     }
     else if(props.showModal==='showLogin'){
         ModalContent=<React.Fragment>
-            <LoginForm setShowUserDetails={props.setShowUserDetails} setShowSignUp={props.setShowSignUp} setShowUserDetails={props.setShowUserDetails}/>
+            <LoginForm setShowUserDetails={props.setShowUserDetails} setShowSignUp={props.setShowSignUp} />
             <LoginButtons/>
         </React.Fragment>;
         titleModal='Login';

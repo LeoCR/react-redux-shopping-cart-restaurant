@@ -1,7 +1,7 @@
 import React from "react";
 import $ from 'jquery';
 import api from '../../apis/api';
-class SignUpForm extends React.Component{
+class SignUpForm extends React.PureComponent{
     constructor (props) {
         super(props);
         this.state = {

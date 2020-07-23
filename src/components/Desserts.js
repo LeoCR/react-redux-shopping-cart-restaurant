@@ -38,7 +38,7 @@ export const Desserts =props=>{
                                 <p>{dessert.description.substr(0,80)+'...'}</p>
                             </div>
                             <button type="button" className="btn btn-danger" onClick={()=>{addDessert(dessert)}}><i className="fa fa-cart-plus fa-3"></i>Add</button>
-                            <a type="button" onClick={(e)=>goToMenu(e,dessert.id)} className="btn btn-success"><i className="fa fa-eye fa-3" aria-hidden="true"></i>Read More</a>
+                            <button type="button" onClick={(e)=>goToMenu(e,dessert.id)} className="btn btn-success"><i className="fa fa-eye fa-3" aria-hidden="true"></i>Read More</button>
                         </div>
                     </div>
         )}
