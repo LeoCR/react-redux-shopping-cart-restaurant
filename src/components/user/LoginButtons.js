@@ -1,5 +1,5 @@
 import React from "react";
-function LoginButtons(){
+const LoginButtons=()=>{
         return(
             <React.Fragment>
                 <div className="container-login">

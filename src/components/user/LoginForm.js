@@ -3,7 +3,7 @@ import $ from "jquery";
 import api from '../../apis/api';
 import {setUser} from "../../actions/userActions";
 import {connect} from 'react-redux';
-class LoginForm extends React.Component{
+class LoginForm extends React.PureComponent{
     state={
         email:'',
         password:'',
